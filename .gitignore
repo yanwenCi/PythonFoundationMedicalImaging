@@ -1,0 +1,37 @@
+# macOS / editor files
+.DS_Store
+__MACOSX/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generated teaching outputs
+seg_outputs/
+outputs/
+*.pt
+*.pth
+*.csv
+
+# Medical imaging datasets (not distributed in this teaching portfolio)
+OrganData/
+OrganDataBefore/
+OrganDataBeforeLarge/
+OrganDataProcessed/
+images/
+images3d/
+Task09_Spleen/
+*.nii
+*.nii.gz
+
+# Keep the small text examples included in the repository
+!03-visualisation/clinician_1.txt
+!03-visualisation/clinician_2.txt
+!supplementary-exercises/pupillary-distance/clinician_1.txt
+!supplementary-exercises/pupillary-distance/clinician_2.txt
